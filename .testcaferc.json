@@ -1,0 +1,13 @@
+{
+  "browsers": ["chrome", "firefox","edge","safari"],
+  "src": "./tests/*.spec.js",
+  "reporter": "list",
+  "screenshots": {
+    "path": "./screenshots/",
+    "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+},
+  "debugMode": false,
+  "selectorTimeout": 3000,
+  "assertionTimeout": 1000,
+  "pageLoadTimeout": 15000
+}

@@ -1,0 +1,17 @@
+{
+  "name": "testcafe_getting_started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:safari": "testcafe safari test1.spec.js",
+    "test:safari:live": "testcafe safari test1.spec.js -L",
+    "test:edge": "testcafe edge test1.spec.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.9.4"
+  }
+}
